@@ -99,14 +99,14 @@ ul{
     display: flex;
     flex-direction: column;
     height: 18rem;
-    width: 80%;
-    margin-left: 1.5rem;
+    width: 85%;
     margin-top: 70px;
     justify-content: center; 
     align-items: center;
     padding: 10px;
     margin: 7%;
     text-align: center;
+<<<<<<< HEAD
 }
 
 #section-2{
@@ -138,6 +138,120 @@ h1{
     width: 100%;
     margin-top: 6.3rem;
     object-fit: cover;
+=======
+}
+
+#section-2{
+    display: flex;
+    height: 1131px;
+    background-color: #F9F9F9;
+    flex-direction: column;
+    border-bottom: 1px solid #69B99D;
+}
+
+#info-2{
+    display: flex;
+    width: 85%;
+    height: 650px;
+    padding: 10px;
+    margin: 7%;
+    flex-direction: column;
+}
+
+h1{
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#img-2{
+    display: flex;
+    height: 17.5rem;
+    width: 100%;
+    margin-top: 6.3rem;
+    object-fit: cover;
+}
+
+#section-3{
+    flex-direction: column;
+    display: flex;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 1553px;
+    border-bottom: 1px solid #69B99D;
+}
+
+#info-3{
+    display: flex;
+    width: 85%;
+    height: 180px;
+    padding: 10px;
+    margin: 7%;
+    flex-direction: column;
+}
+
+#icone-1{
+    background-color: #F9F9F9;
+    display: flex;
+    width: 85%;
+    height: 372px;
+    padding: 10px;
+    margin: 7%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-bottom: 3px solid #69B99D;
+}
+
+#img-3{
+    height: 80px;
+    width: 80px;
+    margin-top: 20%;
+}
+
+#icone-2{
+    background-color: #F9F9F9;
+    display: flex;
+    width: 85%;
+    height: 372px;
+    padding: 10px;
+    margin: 7%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-bottom: 3px solid #69B99D;
+}
+
+#img-4{
+    height: 80px;
+    width: 80px;
+    margin-top: 20%;
+}
+
+#icone-3{
+    background-color: #F9F9F9;
+    display: flex;
+    width: 85%;
+    height: 372px;
+    padding: 10px;
+    margin: 7%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-bottom: 3px solid #69B99D;
+}
+
+#img-5{
+    height: 80px;
+    width: 80px;
+    margin-top: 20%;
+>>>>>>> hotfix/new-section
 }
 
 
