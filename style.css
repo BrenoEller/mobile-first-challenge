@@ -252,9 +252,22 @@
 
     }
     
+    #section-4{
+        display: flex;
+        height: 703px;
+        width: 100%;
+        background-color: #F9F9F9;
+        flex-direction: column;
+        border-bottom: 1px solid #69B99D;
+    }
     
-    
-    
+    #info-4{
+        display: flex;
+        width: 85%;
+        height: 180px;
+        padding: 10px;
+        margin: 7%;
+    }
     
     
     
