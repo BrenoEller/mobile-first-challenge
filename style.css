@@ -269,5 +269,67 @@
         margin: 7%;
     }
     
+    #section-5{
+        display: flex;
+        height: 530px;
+        width: 100%;
+        background-color: #F9F9F9;
+        flex-direction: column;
+    }
+
+    #info-5{
+        flex-direction: column;
+        height: 250px;
+        display: flex;
+        width: 85%;
+        padding: 10px;
+        margin: 7%;
+    }
+    #button-2{
+        display: flex;
+        font-family: DM sans, sans-serif;
+        color: #F9F9F9;
+        background-color: #69B99D;
+        height: 56px;
+        width: 218px;
+        border-radius: 4px;
+        border: none;
+        margin-top: 20px;
+        transition: background 0.3s;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    #contatos{
+        display: flex;
+        height: 50px;
+        width: 85%;
+        padding: 10px;
+        gap: 0.5rem;
+        align-items: center;
+        margin-left:7%;
+    }
+
+    #contatos-2{
+        display: flex;
+        height: 50px;
+        width: 85%;
+        padding: 10px;
+        gap: 0.5rem;
+        align-items: center;
+        margin-left:7%;
+    }
+
+    #contatos-3{
+        display: flex;
+        height: 50px;
+        width: 85%;
+        padding: 10px;       
+        gap: 0.5rem;
+        align-items: center;
+        margin-left:7%;
+    }
+
     
     
