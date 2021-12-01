@@ -33,7 +33,7 @@
         margin-top: 10px;
     }
     
-    a{
+    #logo{
         text-decoration: none;
         font-family: Poppins, sans-serif;
         color: black;
@@ -48,25 +48,47 @@
     span{
         color: #69B99D;
     }
-    
+
     li{
         list-style: none;
-        padding: 20px;
+        font-family: DM sans, sans-serif;
+    }
+
+    a{
+        text-decoration: none;
+        font-family: DM sans, sans-serif;
+    }
+
+    #icons-menu{
+        position: absolute;
+        
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+
+    }
+    
+    #itens{
+        display: flex;
+        position: relative;
+        color: black;
+        margin-right: 40%;
+        margin-top: 60%;
+        text-align: center;
+    }
+
+    #menu{
+        
+        color: #F9F9F9;
+        
+    }
+
+    header nav ul li{
         font-family: DM sans, sans-serif;
     }
     
-    ul{
-        display: flex;
-        margin-left: 80px;
-    }
-    
-    #menu{
-        display: flex;
-        color: black;
-        margin-right: 20px;
-    }
-    
     #header{
+        position: relative;
         display: flex;   
         background-color: #F9F9F9;
         justify-content: space-between;
