@@ -74,57 +74,69 @@
     }
 
     .icons-menu.on{
-        position: absolute;
+        position: fixed;
         background-color: white;
-        width: 100vw;
-        height: 100vh;
+        width: unset;
+        height: unset;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
     }
 
-    #icons-menu{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        right: 5%;
-        top: 2%;
+    .button-image:hover{
+        background-color: transparent;
     }
 
     #button-hamburguer{
         cursor: pointer;
     }
     
-    #hamburguer.on{
+    .icons-menu.on #hamburguer{
         display: none;
     }
 
     #hamburguer{
+        
         position: absolute;
         right: 5%;
         top: 4%;
     }
 
-    #close.on{
+    .icons-menu.on #close{
+        display: block;
         position: absolute;
         left: 5%;
         top: 4%;
+    }
+
+    .button-image{
+        background: transparent;
+	    border: 0;
+	    line-height: 0;
     }
 
     #close{
         display: none;
     }
 
-    #lista.on{
+    .icons-menu.on #lista{
         display: flex;
-        justify-content: center;
         margin-top: 15rem;
-        text-align: center;   
+        text-align: center; 
+        justify-content: center;
     }
 
     #lista{
         display: none;
+    }
+
+    .letras-menu{
+        color: black;
+    }
+
+    .letras-menu:hover{
+        color: #69B99D;
     }
     
     #section-1{

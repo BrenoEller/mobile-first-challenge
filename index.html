@@ -17,21 +17,21 @@
 
         <header>
             <div id="icons-menu" class="icons-menu">
-                <button>
-                    <img id="hamburguer" src="../NLW/images/menu.svg">
+                <button id="hamburguer" class="button-image">
+                    <img src="../NLW/images/menu.svg">
                 </button>
-                <button>
-                    <img id="close" src="../NLW/images/close (1).svg">
+                <button id="close" class="button-image">
+                    <img src="../NLW/images/close (1).svg">
                 </button>
-                    <div id="lista">
-                        <ul>
-                            <li>Início</li>
-                            <li>Sobre</li>
-                            <li>Serviços</li>
-                            <li>Depoimentos</li>
-                            <li>Contato</li>
-                        </ul>
-                    </div>
+                <div id="lista">
+                    <ul>
+                        <a href="#header" class="letras-menu"><li>Início</li></a>
+                        <a href="#about" class="letras-menu"><li>Sobre</li></a>
+                        <a href="#services" class="letras-menu"><li>Serviços</li></a>
+                        <a href="#depoimentos" class="letras-menu"><li>Depoimentos</li></a>
+                        <a href="#section-5" class="letras-menu"><li>Contato</li></a>
+                    </ul>
+                </div>
             </div>
             <nav id="nav-responsiva">
                 <div id="header">
@@ -56,7 +56,7 @@
                 <div id="section-2">
                     <img id="img-2" src="../NLW/images/img2.jpg" alt="">
                     <div id="info-2">
-                        <h1 class="second-h1">Sobre nós</h1>
+                        <h1 class="second-h1" id="about">Sobre nós</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus.<br><br><br>
      
                             In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue vulputate sapien, vitae feugiat enim augue sed.<br><br><br>
@@ -69,7 +69,7 @@
             <section>
                 <div id="section-3">
                     <div id="info-3">
-                        <h1>Serviços</h1>
+                        <h1 id="services">Serviços</h1>
                         <p>Com mais de 10 anos no mercado, o <span>Beautysalon</span> já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
                     </div>
                     <div id="icone-1">
@@ -94,7 +94,7 @@
             <section>
                 <div id="section-4"> 
                     <div id="info-4">
-                        <h1>Depoimentos de quem já passou por aqui</h1>                             
+                        <h1 id="depoimentos">Depoimentos de quem já passou por aqui</h1>                             
                     </div>
                 </div>
             </section>
@@ -140,5 +140,6 @@
             </div>
         </footer>
 
+        <script src="../NLW/js.js"></script>
     </body>
 </html>
