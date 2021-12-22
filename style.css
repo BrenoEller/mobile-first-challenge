@@ -326,6 +326,7 @@
         background-color: #F9F9F9;
         flex-direction: column;
         border-bottom: 1px solid #69B99D;
+        align-items: center;
     }
     
     #info-4{
@@ -334,7 +335,71 @@
         height: 180px;
         padding: 10px;
         margin: 7%;
+        align-items: center;
+        
     }
+
+    .swiper-pagination-bullet{
+        height: 0.75rem;
+        width: 0.7rem;
+    }
+
+    .swiper-pagination-bullet-active{
+        background: #69B99D;
+    }
+
+
+    .swiper-slide {
+        font-family: DM sans, sans-serif;
+        font-size: 16px;
+        width: 25rem;
+    }
+
+    .swiper-slide.swiper-slide-active{
+        width: 25r;
+    }
+    .card{
+        flex-direction: column; 
+        display: flex;
+        height: auto;
+        width: 25rem;
+        background-color: #F9F9F9;
+        padding: 2rem ;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+        justify-content: center;
+
+    }
+
+    .people{
+        display: flex;
+        width: 85%;
+        height: 5rem;
+        margin-left: 1rem;
+        align-items: center;
+    }
+
+    .photo{
+        display: flex;
+        height:2rem;
+        width: 2rem;
+        clip-path: circle();
+    }
+
+    .nomes{
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        color: #767676;
+        margin-left: 0.5rem;
+    }
+
+    .depoimento{
+        display: flex;
+        height: 10rem;
+        width: 15rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
     
     #section-5{
         display: flex;

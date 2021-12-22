@@ -35,3 +35,26 @@ document.getElementById('letras-menu5').addEventListener('click', () =>{
 
     menu.classList.remove('on');
 })
+
+const swiper = new Swiper('.swiper', {
+    direction: 'vertical',
+    loop: false,
+  
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    mousewheel:true,
+    keyboad:true,
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+
+  
+  });
