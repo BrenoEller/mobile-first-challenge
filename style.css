@@ -120,7 +120,7 @@
         display: none;
     }
 
-    .icons-menu.on #lista{
+    .imgs-1.on #lista{
         display: flex;
         margin-top: 15rem;
         text-align: center; 
@@ -171,6 +171,10 @@
         border-radius: 4px;
         top: 3rem;
         right: 0;
+    }
+
+    #imgs-1.on{
+        display: none;
     }
     
     #info-1{
@@ -355,8 +359,8 @@
     }
 
     .swiper-pagination-bullet{
-        height: 0.75rem;
-        width: 0.7rem;
+        height: 0.55rem;
+        width: 0.5rem;
     }
 
     .swiper-pagination-bullet-active{
@@ -367,22 +371,16 @@
     .swiper-slide {
         font-family: DM sans, sans-serif;
         font-size: 16px;
-        width: 25rem;
     }
 
-    .swiper-slide.swiper-slide-active{
-        width: 25r;
-    }
     .card{
         flex-direction: column; 
         display: flex;
         height: auto;
-        width: 25rem;
-        background-color: #F9F9F9;
-        padding: 2rem ;
+        width: 20rem;
+        padding: 0.5rem;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
         justify-content: center;
-
     }
 
     .people{
