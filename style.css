@@ -148,14 +148,29 @@
         border-bottom: 1px solid #69B99D;
     }
     
+    #imgs-1{
+        position: relative;
+        height: 20rem;
+        width: 100%;
+    }
     
     #img-1{
-        display: flex;
+        position: absolute;
         height: 14rem;
         width: 85%;
         border-radius: 4px;
         margin-top: 6rem;
         object-fit: cover;
+    }
+
+    #back-img-1{
+        position: absolute;
+        height: 14rem;
+        width: 85%;
+        background-color: #CCF4E6;
+        border-radius: 4px;
+        top: 3rem;
+        right: 0;
     }
     
     #info-1{
