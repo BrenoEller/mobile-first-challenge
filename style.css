@@ -120,7 +120,7 @@
         display: none;
     }
 
-    .imgs-1.on #lista{
+    .icons-menu.on #lista{
         display: flex;
         margin-top: 15rem;
         text-align: center; 
@@ -149,28 +149,27 @@
     }
     
     #imgs-1{
-        position: relative;
         height: 20rem;
         width: 100%;
     }
     
     #img-1{
-        position: absolute;
+        position: relative;
         height: 14rem;
         width: 85%;
         border-radius: 4px;
-        margin-top: 6rem;
         object-fit: cover;
+        bottom: 40%;
     }
 
     #back-img-1{
-        position: absolute;
+        position: relative;
         height: 14rem;
         width: 85%;
         background-color: #CCF4E6;
         border-radius: 4px;
         top: 3rem;
-        right: 0;
+        left: 15%;
     }
 
     #imgs-1.on{
