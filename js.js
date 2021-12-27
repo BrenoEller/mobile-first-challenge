@@ -1,5 +1,4 @@
 const menu = document.getElementById('icons-menu');
-const imgs = document.getElementById('imgs-1')
 
 
 document.getElementById('hamburguer').addEventListener('click', () =>{
