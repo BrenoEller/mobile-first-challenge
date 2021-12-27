@@ -536,5 +536,15 @@
         gap: 2rem;
     }
 
+
+    @media (min-width : 500px){
+        #section-2{
+            height: 900px;
+        }
+
+        #info-2{
+            margin-top: 24%;
+        }
+    }
     
     
