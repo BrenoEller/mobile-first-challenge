@@ -548,6 +548,33 @@
 
     }
 
-    
+    @media (min-width: 1000px){
+        #section-2{
+            flex-direction: initial;
+        }
+
+        #imgs-2{
+            width: 45%;
+        }
+
+        #info-2{
+            width: 55%;
+            margin-top: 6%;
+            height: 20rem;
+            margin: 2rem;
+            margin-left: 2rem;
+        }
+
+        #imagem-2{
+            height: 20rem;
+            width: 100%;
+        }
+
+        #section-2{
+            height: 570px;
+        }
+    }
+
+
     
     
