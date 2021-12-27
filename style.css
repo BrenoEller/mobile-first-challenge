@@ -82,6 +82,7 @@
         right: 0;
         bottom: 0;
         left: 0;
+        z-index: 2;
     }
 
     .button-image:hover{
@@ -196,6 +197,13 @@
         flex-direction: column;
         border-bottom: 1px solid #69B99D;
     }
+
+    #imgs-2{
+        position: relative;
+        display: flex;
+        height: 20rem;
+        width: 100%;
+    }
     
     #info-2{
         display: flex;
@@ -212,12 +220,23 @@
         line-height: 45px;
     }
     
-    #img-2{
-        display: flex;
-        height: 17.5rem;
+    #imagem-2{
+        position: absolute;
+        top: 4rem;
+        height: 17rem;
         width: 100%;
-        margin-top: 6.3rem;
         object-fit: cover;
+        border-radius: 4px;
+    }
+
+    #back-2{
+        position: absolute;
+        left: 0;
+        top: 2.5rem;
+        background-color: #CCF4E6;
+        width: 60%;
+        height: 10rem;
+        border-radius: 4px;
     }
     
     #section-2{

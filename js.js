@@ -1,16 +1,6 @@
 const menu = document.getElementById('icons-menu');
 const imgs = document.getElementById('imgs-1')
 
-document.getElementById('hamburguer').addEventListener('click', () =>{
-
-    imgs.classList.add('on');
-})
-
-document.getElementById('close').addEventListener('click', () =>{
-
-    menu.classList.remove('on');
-})
-
 
 document.getElementById('hamburguer').addEventListener('click', () =>{
 
@@ -50,32 +40,6 @@ document.getElementById('letras-menu5').addEventListener('click', () =>{
     menu.classList.remove('on');
 })
 
-         //para as imagens sumirem quando o menu aparecer(tambem deve ser simplificada)//
-
-document.getElementById('letras-menu').addEventListener('click', () =>{
-
-    imgs.classList.remove('on');
-})
-
-document.getElementById('letras-menu2').addEventListener('click', () =>{
-
-    imgs.classList.remove('on');
-})
-
-document.getElementById('letras-menu3').addEventListener('click', () =>{
-
-    imgs.classList.remove('on');
-})
-
-document.getElementById('letras-menu4').addEventListener('click', () =>{
-
-    imgs.classList.remove('on');
-})
-
-document.getElementById('letras-menu5').addEventListener('click', () =>{
-
-    imgs.classList.remove('on');
-})
 
 const swiper = new Swiper('.swiper', {
     direction: 'vertical',
