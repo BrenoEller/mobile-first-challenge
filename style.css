@@ -150,21 +150,22 @@
     }
     
     #imgs-1{
+        position: relative;
         height: 20rem;
         width: 100%;
     }
     
     #img-1{
-        position: relative;
+        position: absolute;
         height: 14rem;
         width: 85%;
         border-radius: 4px;
         object-fit: cover;
-        bottom: 40%;
+        top: 5rem;
     }
 
     #back-img-1{
-        position: relative;
+        position: absolute;
         height: 14rem;
         width: 85%;
         background-color: #CCF4E6;
@@ -548,7 +549,48 @@
 
     }
 
+    @media (min-width: 750px){
+        #img-1{
+            height:20rem;
+        }
+
+        #back-img-1{
+            height:20rem;
+        }
+    }
+
     @media (min-width: 1000px){
+        #section-1{
+            flex-direction: row-reverse;
+            height: 550px;
+        }
+
+        #info-1{
+            margin-right: 10rem;
+            width: 25rem;
+            align-items: initial;
+            text-align: initial;
+        }
+
+        #img-1{
+            height: 20rem;
+            top: 4rem;
+        }
+
+        #back-img-1{
+            height: 20rem;
+            top:0;
+            width: 38rem;
+        }
+
+        #imgs-1{
+            top: 3rem;
+            position: relative;
+            height: 28rem;
+            width: 70%;
+            right: 2rem;
+        }
+
         #section-2{
             flex-direction: initial;
         }
