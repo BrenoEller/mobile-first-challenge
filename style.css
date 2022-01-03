@@ -136,7 +136,10 @@
 
     .letras-menu:hover{
         color: #69B99D;
+        transition: 0.2s;
     }
+
+    
     
     #section-1{
         display: flex;
@@ -559,7 +562,37 @@
 
     @media (min-width:800px){
 
-        
+        ul{
+            position: absolute;
+            display: flex;
+            flex-direction: initial;
+            right: 3%;
+            top:2.7%;
+            gap: 2rem;
+            
+        }
+
+        li{
+            font-family: DM sans, sans-serif;
+            height: 400;
+            size: 16px;
+        }
+
+        .letras-menu{
+            font-family: DM sans, sans-serif;
+            font-weight: 400 !important;
+            font-size: 16px;
+            color: #0f241d;
+        }
+
+        .letras-menu:hover{
+            border-bottom: 3px solid #69B99D;
+            margin-top: 10px;
+        }
+
+        #hamburguer{
+            display: none;
+        }
     }
    
 

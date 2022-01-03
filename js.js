@@ -11,33 +11,14 @@ document.getElementById('close').addEventListener('click', () =>{
     menu.classList.remove('on');
 })
 
+const links = document.querySelectorAll('ul li a');
 
-                //Lista do menu que deve ser simplificada ainda //
-
-document.getElementById('letras-menu').addEventListener('click', () =>{
-
-    menu.classList.remove('on');
-})
-
-document.getElementById('letras-menu2').addEventListener('click', () =>{
-
-    menu.classList.remove('on');
-})
-
-document.getElementById('letras-menu3').addEventListener('click', () =>{
-
-    menu.classList.remove('on');
-})
-
-document.getElementById('letras-menu4').addEventListener('click', () =>{
-
-    menu.classList.remove('on');
-})
-
-document.getElementById('letras-menu5').addEventListener('click', () =>{
-
-    menu.classList.remove('on');
-})
+for (const link of links){
+    link.addEventListener('click', () => {
+        menu.classList.remove('on')
+    }
+    )
+}
 
 
 const swiper = new Swiper('.swiper', {
