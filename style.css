@@ -52,15 +52,15 @@
     li{
         
         list-style: none !important;
-        font-family: Poppins, sans-serif;
-        font-size: 21px;
-        font-weight: 700;  
+        font-family: Poppins, sans-serif !important;
+        font-size: 21px !important;
+        font-weight: 700 !important;  
         
     }
 
     a{
         text-decoration: none;
-        font-family: DM sans, sans-serif;
+        
     }
     
     #header{
@@ -114,6 +114,10 @@
 
     #close{
         display: none;
+    }
+
+    .icons-menu.on #lista{
+        height: 100vh;
     }
 
     .icons-menu.on ul{
